@@ -67,8 +67,9 @@ body{
 
 .grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns:repeat(auto-fit, 170px);
     gap:18px;
+    justify-content:center;
 }
 
 .card{

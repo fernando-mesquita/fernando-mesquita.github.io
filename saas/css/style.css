@@ -54,13 +54,12 @@ body{
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:16px;
-
     justify-items:center; /* 👈 centraliza cada card */
 }
 
 .card{
     width:100%;
-    max-width:140px;   /* 👈 deixa o “container do botão” menor */
+    max-width:110px;   /* 👈 deixa o “container do botão” menor */
 
     aspect-ratio:1/1;
 

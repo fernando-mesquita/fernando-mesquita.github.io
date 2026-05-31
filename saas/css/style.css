@@ -1,8 +1,15 @@
 body{
+    display:flex;
     margin:0;
     font-family:Inter;
     background:#0f172a;
     color:white;
+    justify-content:center;
+}
+
+.app{
+    width:100%;
+    max-width:1200px;
 }
 
 .tabs{
@@ -44,6 +51,8 @@ body{
 .tab-content{
     display:none;
     padding:20px;
+    max-width:1100px;
+    margin:0 auto;   /* 👈 ESSENCIAL */
 }
 
 .tab-content.active{
@@ -54,11 +63,11 @@ body{
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
     gap:18px;
-    justify-items:center; /* 👈 centraliza cada card */
+  /*  justify-items:stretch; */
 }
 
 .card{
-    width:100%;
+  /*  width:100%; */
   /*  max-width:160px; */  /* 👈 deixa o “container do botão” menor */
 
     aspect-ratio:1/1;

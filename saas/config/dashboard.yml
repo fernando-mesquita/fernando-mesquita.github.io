@@ -1,0 +1,28 @@
+tabs:
+  - id: work
+    title: "🏢 Trabalho"
+    sections:
+      - title: "Email"
+        links:
+          - name: Outlook
+            url: https://outlook.com
+            icon: outlook.com
+
+          - name: Gmail
+            url: https://gmail.com
+            icon: gmail.com
+
+      - title: "Produtividade"
+        links:
+          - name: Todoist
+            url: https://todoist.com
+            icon: todoist.com
+
+  - id: personal
+    title: "👤 Pessoal"
+    sections:
+      - title: "Cloud"
+        links:
+          - name: Koofr
+            url: https://koofr.eu
+            icon: koofr.eu

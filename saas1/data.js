@@ -1,0 +1,75 @@
+{
+  "work": {
+    "tab": "Trabalho",
+    "categories": [
+      {
+        "name": "Comunicação",
+        "items": [
+          {
+            "name": "Outlook",
+            "icon": "./icons/outlook.svg",
+            "url": "https://outlook.com"
+          }
+        ]
+      },
+      {
+        "name": "Produtividade",
+        "items": [
+          {
+            "name": "Todoist",
+            "icon": "./icons/todoist.svg",
+            "url": "https://todoist.com"
+          }
+        ]
+      }
+    ]
+  },
+
+  "personal": {
+    "tab": "Pessoal",
+    "categories": [
+      {
+        "name": "Comunicação",
+        "items": [
+          {
+            "name": "Gmail",
+            "icon": "./icons/gmail.svg",
+            "url": "https://gmail.com"
+          }
+        ]
+      }
+    ]
+  },
+
+  "finance": {
+    "tab": "Finanças",
+    "categories": [
+      {
+        "name": "Bancos",
+        "items": [
+          {
+            "name": "Wise",
+            "icon": "./icons/wise.svg",
+            "url": "#"
+          }
+        ]
+      }
+    ]
+  },
+
+  "infra": {
+    "tab": "Infra",
+    "categories": [
+      {
+        "name": "Cloud",
+        "items": [
+          {
+            "name": "Cloudflare",
+            "icon": "./icons/cloudflare.svg",
+            "url": "#"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+:root{
+    --bg:#0f172a;
+    --panel:rgba(15,23,42,.75);
+    --card:rgba(30,41,59,.65);
+    --hover:rgba(51,65,85,.9);
+    --text:#f8fafc;
+    --muted:#94a3b8;
+    --accent:#60a5fa;
+    --blur:blur(12px);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Inter,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    min-height:100vh;
+}
+
+/* HEADER */
+.header{
+    text-align:center;
+    padding:20px 10px 10px;
+}
+
+.clock{
+    font-size:2.2rem;
+    font-weight:700;
+}
+
+.date{
+    color:var(--muted);
+    margin-top:5px;
+}
+
+/* TABS */
+.tabs{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    padding:12px;
+    position:sticky;
+    top:0;
+    backdrop-filter:blur(12px);
+}
+
+.tab{
+    padding:10px 14px;
+    border-radius:14px;
+    border:none;
+    cursor:pointer;
+    background:var(--panel);
+    color:var(--text);
+}
+
+.tab.active{
+    background:var(--accent);
+    color:white;
+}
+
+/* CONTAINER */
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:10px 20px 40px;
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+}
+
+/* CARD */
+.card{
+    aspect-ratio:1/1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:var(--text);
+    background:var(--card);
+    border-radius:20px;
+    backdrop-filter:var(--blur);
+    transition:.2s;
+}
+
+.card:hover{
+    background:var(--hover);
+    transform:translateY(-4px);
+}
+
+.card img{
+    width:70px;
+    height:70px;
+    margin-bottom:10px;
+    object-fit:contain;
+}
+
+/* CATEGORIA */
+.category-title{
+    margin:26px 0 14px;
+    font-size:1rem;
+    font-weight:600;
+    color:var(--muted);
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+    cursor:pointer;
+}
+
+.toggle-btn{
+    width:26px;
+    height:26px;
+    flex:0 0 26px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:none;
+    border-radius:8px;
+
+    background:var(--panel);
+    color:var(--text);
+    cursor:pointer;
+}
+
+.section{
+    display:none;
+}
+
+.section.active{
+    display:block;
+}
+
+.category-content{
+    display:none;
+}
+
+.category-content.open{
+    display:block;
+}
+
+@media(max-width:900px){
+    .grid{grid-template-columns:repeat(2,1fr);}
+}
+
+@media(max-width:500px){
+    .grid{grid-template-columns:1fr;}
+}

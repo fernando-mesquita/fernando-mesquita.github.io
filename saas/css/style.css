@@ -66,8 +66,9 @@ body{
 
 .grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns:repeat(auto-fit, 160px);
     gap:18px;
+    justify-content:center;
   /*  justify-items:stretch; */
 }
 

@@ -1,4 +1,20 @@
 {
+  "personal": {
+    "tab": "Pessoal",
+    "categories": [
+      {
+        "name": "Comunicação",
+        "items": [
+          {
+            "name": "Gmail",
+            "icon": "./icons/gmail.svg",
+            "url": "https://gmail.com"
+          }
+        ]
+      }
+    ]
+  },
+  
   "work": {
     "tab": "Trabalho",
     "categories": [
@@ -19,22 +35,6 @@
             "name": "Todoist",
             "icon": "./icons/todoist.svg",
             "url": "https://todoist.com"
-          }
-        ]
-      }
-    ]
-  },
-
-  "personal": {
-    "tab": "Pessoal",
-    "categories": [
-      {
-        "name": "Comunicação",
-        "items": [
-          {
-            "name": "Gmail",
-            "icon": "./icons/gmail.svg",
-            "url": "https://gmail.com"
           }
         ]
       }

@@ -1,9 +1,9 @@
 {
   "personal": {
-    "tab": "Pessoal",
+    "tab": "Pessoal1",
     "categories": [
       {
-        "name": "Comunicação",
+        "name": "E-mail",
         "items": [
           {
             "name": "Gmail",
@@ -87,6 +87,6 @@
       ]
     }
   ]
-},
+}
 
 }

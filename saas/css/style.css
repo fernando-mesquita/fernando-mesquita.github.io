@@ -1,10 +1,10 @@
 body{
-    display:flex;
+   /* display:flex; */
     margin:0;
     font-family:Inter;
     background:#0f172a;
     color:white;
-    justify-content:center;
+   /* justify-content:center; */
 }
 
 .app{

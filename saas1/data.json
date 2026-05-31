@@ -71,21 +71,6 @@
         ]
       }
     ]
-  },
+  }
   
-  "dev": {
-  "tab": "Dev",
-  "categories": [
-    {
-      "name": "Ferramentas",
-      "items": [
-        {
-          "name": "GitHub",
-          "icon": "./icons/github.svg",
-          "url": "https://github.com"
-        }
-      ]
-    }
-  ]
-}
 }

@@ -8,8 +8,13 @@ body{
 }
 
 .app{
-    width:100%;
-    max-width:1200px;
+    max-width:1100px;
+    margin:0 auto;
+    padding:20px;
+    min-height:100vh;
+    
+    display:flex;
+    flex-direction:column;
 }
 
 .tabs{

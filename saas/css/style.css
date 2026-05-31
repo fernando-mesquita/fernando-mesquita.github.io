@@ -59,7 +59,7 @@ body{
 
 .card{
     width:100%;
-    max-width:110px;   /* 👈 deixa o “container do botão” menor */
+    max-width:140px;   /* 👈 deixa o “container do botão” menor */
 
     aspect-ratio:1/1;
 
